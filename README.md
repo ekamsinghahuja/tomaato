@@ -1,4 +1,4 @@
-<h1>main app UI:</h1>
+<h1>main app:</h1>
 <img width="1265" alt="image" src="https://github.com/ekamsinghahuja/tomaato/assets/97456246/57f2f66a-161c-4085-b7a5-5300b28ba9c1">
 <h1>easy to add and delete items:</h1>
 <img width="1323" alt="image" src="https://github.com/ekamsinghahuja/tomaato/assets/97456246/1e5f342b-7db7-4b74-900e-339adbd0a2ea">
