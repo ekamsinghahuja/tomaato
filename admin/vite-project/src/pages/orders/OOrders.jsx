@@ -24,10 +24,10 @@ const Orders = () => {
 
   return (
     <div>
-       <div className='list add flex-col'>
+       <div className='Olist add flex-col'>
       <p>All Order List</p>
-        <div className="list-table">
-          <div className="list-table-format title">
+        <div className="Olist-table">
+          <div className="Olist-table-format title">
             <b>S.No.</b>
             <b>Name</b>
             <b>address</b>
@@ -39,7 +39,7 @@ const Orders = () => {
           </div>
           {list.map((item,index)=>{
             return(
-            <div key = {index} className='list-table-format'>
+            <div key = {index} className='Olist-table-format'>
                 <p>{index+1}</p>
                 <p>{item.address.firstName}</p>
                 <p>{item.address.street + " ," + item.address.city + " ," + item.address.state + " ," + item.address.country + " ," + item.address.zipcode}</p>
@@ -55,7 +55,7 @@ const Orders = () => {
                 })}</p>
                 <p>${item.amount}</p>
                 <p>{item.status}</p>
-                <p className='cross01' onClick={()=>removeFood(item._id)}>X</p>
+                <p className='Ocross01' onClick={()=>removeFood(item._id)}>X</p>
             </div>
             )
           })}
